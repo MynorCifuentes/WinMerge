@@ -22,162 +22,162 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.txt_0 = New System.Windows.Forms.RichTextBox()
         Me.txt_1 = New System.Windows.Forms.RichTextBox()
         Me.txt_2 = New System.Windows.Forms.RichTextBox()
-        Me.txt_3 = New System.Windows.Forms.RichTextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.btn_copiar1 = New System.Windows.Forms.Button()
+        Me.btn_comparar = New System.Windows.Forms.Button()
+        Me.btn_copiar2 = New System.Windows.Forms.Button()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
-        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AbrirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.GuardarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.GuardarComoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.HerramientasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CompararToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AgregarTextoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ArchivoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AcercaDeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ManualDeLaAplicaciónToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.menu_archivo = New System.Windows.Forms.ToolStripMenuItem()
+        Me.menu_abrir = New System.Windows.Forms.ToolStripMenuItem()
+        Me.menu_guardar = New System.Windows.Forms.ToolStripMenuItem()
+        Me.menu_guardarc = New System.Windows.Forms.ToolStripMenuItem()
+        Me.menu_salir = New System.Windows.Forms.ToolStripMenuItem()
+        Me.menu_herramientas = New System.Windows.Forms.ToolStripMenuItem()
+        Me.menu_comparar = New System.Windows.Forms.ToolStripMenuItem()
+        Me.menu_agregart = New System.Windows.Forms.ToolStripMenuItem()
+        Me.menu_ayuda = New System.Windows.Forms.ToolStripMenuItem()
+        Me.menu_acercade = New System.Windows.Forms.ToolStripMenuItem()
+        Me.menu_manual = New System.Windows.Forms.ToolStripMenuItem()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
+        Me.txt_3 = New System.Windows.Forms.RichTextBox()
         Me.MenuStrip1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
+        'txt_0
+        '
+        Me.txt_0.Location = New System.Drawing.Point(12, 37)
+        Me.txt_0.Name = "txt_0"
+        Me.txt_0.Size = New System.Drawing.Size(22, 210)
+        Me.txt_0.TabIndex = 5
+        Me.txt_0.Text = ""
+        '
         'txt_1
         '
-        Me.txt_1.Location = New System.Drawing.Point(12, 37)
+        Me.txt_1.Location = New System.Drawing.Point(49, 37)
         Me.txt_1.Name = "txt_1"
-        Me.txt_1.Size = New System.Drawing.Size(22, 210)
-        Me.txt_1.TabIndex = 5
+        Me.txt_1.Size = New System.Drawing.Size(209, 210)
+        Me.txt_1.TabIndex = 6
         Me.txt_1.Text = ""
         '
         'txt_2
         '
-        Me.txt_2.Location = New System.Drawing.Point(49, 37)
+        Me.txt_2.Location = New System.Drawing.Point(278, 37)
         Me.txt_2.Name = "txt_2"
-        Me.txt_2.Size = New System.Drawing.Size(209, 210)
-        Me.txt_2.TabIndex = 6
+        Me.txt_2.Size = New System.Drawing.Size(226, 210)
+        Me.txt_2.TabIndex = 7
         Me.txt_2.Text = ""
         '
-        'txt_3
+        'btn_copiar1
         '
-        Me.txt_3.Location = New System.Drawing.Point(278, 37)
-        Me.txt_3.Name = "txt_3"
-        Me.txt_3.Size = New System.Drawing.Size(226, 210)
-        Me.txt_3.TabIndex = 7
-        Me.txt_3.Text = ""
+        Me.btn_copiar1.Location = New System.Drawing.Point(92, 253)
+        Me.btn_copiar1.Name = "btn_copiar1"
+        Me.btn_copiar1.Size = New System.Drawing.Size(75, 23)
+        Me.btn_copiar1.TabIndex = 8
+        Me.btn_copiar1.Text = "Copiar >>"
+        Me.btn_copiar1.UseVisualStyleBackColor = True
         '
-        'Button1
+        'btn_comparar
         '
-        Me.Button1.Location = New System.Drawing.Point(92, 253)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 8
-        Me.Button1.Text = "Copiar >>"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btn_comparar.Location = New System.Drawing.Point(230, 253)
+        Me.btn_comparar.Name = "btn_comparar"
+        Me.btn_comparar.Size = New System.Drawing.Size(75, 23)
+        Me.btn_comparar.TabIndex = 9
+        Me.btn_comparar.Text = "Comparar"
+        Me.btn_comparar.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btn_copiar2
         '
-        Me.Button2.Location = New System.Drawing.Point(230, 253)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 9
-        Me.Button2.Text = "Comparar"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(373, 253)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 10
-        Me.Button3.Text = "<<Copiar"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btn_copiar2.Location = New System.Drawing.Point(373, 253)
+        Me.btn_copiar2.Name = "btn_copiar2"
+        Me.btn_copiar2.Size = New System.Drawing.Size(75, 23)
+        Me.btn_copiar2.TabIndex = 10
+        Me.btn_copiar2.Text = "<<Copiar"
+        Me.btn_copiar2.UseVisualStyleBackColor = True
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem1, Me.HerramientasToolStripMenuItem, Me.ArchivoToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.menu_archivo, Me.menu_herramientas, Me.menu_ayuda})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(537, 24)
         Me.MenuStrip1.TabIndex = 11
         Me.MenuStrip1.Text = "MenuStrip1"
         '
-        'ToolStripMenuItem1
+        'menu_archivo
         '
-        Me.ToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AbrirToolStripMenuItem, Me.GuardarToolStripMenuItem, Me.GuardarComoToolStripMenuItem, Me.SalirToolStripMenuItem})
-        Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(60, 20)
-        Me.ToolStripMenuItem1.Text = "Archivo"
+        Me.menu_archivo.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.menu_abrir, Me.menu_guardar, Me.menu_guardarc, Me.menu_salir})
+        Me.menu_archivo.Name = "menu_archivo"
+        Me.menu_archivo.Size = New System.Drawing.Size(60, 20)
+        Me.menu_archivo.Text = "Archivo"
         '
-        'AbrirToolStripMenuItem
+        'menu_abrir
         '
-        Me.AbrirToolStripMenuItem.Name = "AbrirToolStripMenuItem"
-        Me.AbrirToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.AbrirToolStripMenuItem.Text = "Abrir"
+        Me.menu_abrir.Name = "menu_abrir"
+        Me.menu_abrir.Size = New System.Drawing.Size(180, 22)
+        Me.menu_abrir.Text = "Abrir"
         '
-        'GuardarToolStripMenuItem
+        'menu_guardar
         '
-        Me.GuardarToolStripMenuItem.Name = "GuardarToolStripMenuItem"
-        Me.GuardarToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.GuardarToolStripMenuItem.Text = "Guardar"
+        Me.menu_guardar.Name = "menu_guardar"
+        Me.menu_guardar.Size = New System.Drawing.Size(180, 22)
+        Me.menu_guardar.Text = "Guardar"
         '
-        'GuardarComoToolStripMenuItem
+        'menu_guardarc
         '
-        Me.GuardarComoToolStripMenuItem.Name = "GuardarComoToolStripMenuItem"
-        Me.GuardarComoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.GuardarComoToolStripMenuItem.Text = "Guardar Como"
+        Me.menu_guardarc.Name = "menu_guardarc"
+        Me.menu_guardarc.Size = New System.Drawing.Size(180, 22)
+        Me.menu_guardarc.Text = "Guardar Como"
         '
-        'SalirToolStripMenuItem
+        'menu_salir
         '
-        Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
-        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.SalirToolStripMenuItem.Text = "Salir"
+        Me.menu_salir.Name = "menu_salir"
+        Me.menu_salir.Size = New System.Drawing.Size(180, 22)
+        Me.menu_salir.Text = "Salir"
         '
-        'HerramientasToolStripMenuItem
+        'menu_herramientas
         '
-        Me.HerramientasToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CompararToolStripMenuItem, Me.AgregarTextoToolStripMenuItem})
-        Me.HerramientasToolStripMenuItem.Name = "HerramientasToolStripMenuItem"
-        Me.HerramientasToolStripMenuItem.Size = New System.Drawing.Size(90, 20)
-        Me.HerramientasToolStripMenuItem.Text = "Herramientas"
+        Me.menu_herramientas.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.menu_comparar, Me.menu_agregart})
+        Me.menu_herramientas.Name = "menu_herramientas"
+        Me.menu_herramientas.Size = New System.Drawing.Size(90, 20)
+        Me.menu_herramientas.Text = "Herramientas"
         '
-        'CompararToolStripMenuItem
+        'menu_comparar
         '
-        Me.CompararToolStripMenuItem.Name = "CompararToolStripMenuItem"
-        Me.CompararToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.CompararToolStripMenuItem.Text = "Comparar"
+        Me.menu_comparar.Name = "menu_comparar"
+        Me.menu_comparar.Size = New System.Drawing.Size(147, 22)
+        Me.menu_comparar.Text = "Comparar"
         '
-        'AgregarTextoToolStripMenuItem
+        'menu_agregart
         '
-        Me.AgregarTextoToolStripMenuItem.Name = "AgregarTextoToolStripMenuItem"
-        Me.AgregarTextoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.AgregarTextoToolStripMenuItem.Text = "Agregar Texto"
+        Me.menu_agregart.Name = "menu_agregart"
+        Me.menu_agregart.Size = New System.Drawing.Size(147, 22)
+        Me.menu_agregart.Text = "Agregar Texto"
         '
-        'ArchivoToolStripMenuItem
+        'menu_ayuda
         '
-        Me.ArchivoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AcercaDeToolStripMenuItem, Me.ManualDeLaAplicaciónToolStripMenuItem})
-        Me.ArchivoToolStripMenuItem.Name = "ArchivoToolStripMenuItem"
-        Me.ArchivoToolStripMenuItem.Size = New System.Drawing.Size(53, 20)
-        Me.ArchivoToolStripMenuItem.Text = "Ayuda"
+        Me.menu_ayuda.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.menu_acercade, Me.menu_manual})
+        Me.menu_ayuda.Name = "menu_ayuda"
+        Me.menu_ayuda.Size = New System.Drawing.Size(53, 20)
+        Me.menu_ayuda.Text = "Ayuda"
         '
-        'AcercaDeToolStripMenuItem
+        'menu_acercade
         '
-        Me.AcercaDeToolStripMenuItem.Name = "AcercaDeToolStripMenuItem"
-        Me.AcercaDeToolStripMenuItem.Size = New System.Drawing.Size(199, 22)
-        Me.AcercaDeToolStripMenuItem.Text = "Acerca de"
+        Me.menu_acercade.Name = "menu_acercade"
+        Me.menu_acercade.Size = New System.Drawing.Size(199, 22)
+        Me.menu_acercade.Text = "Acerca de"
         '
-        'ManualDeLaAplicaciónToolStripMenuItem
+        'menu_manual
         '
-        Me.ManualDeLaAplicaciónToolStripMenuItem.Name = "ManualDeLaAplicaciónToolStripMenuItem"
-        Me.ManualDeLaAplicaciónToolStripMenuItem.Size = New System.Drawing.Size(199, 22)
-        Me.ManualDeLaAplicaciónToolStripMenuItem.Text = "Manual de la aplicación"
+        Me.menu_manual.Name = "menu_manual"
+        Me.menu_manual.Size = New System.Drawing.Size(199, 22)
+        Me.menu_manual.Text = "Manual de la aplicación"
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.RichTextBox1)
+        Me.GroupBox1.Controls.Add(Me.txt_3)
         Me.GroupBox1.Location = New System.Drawing.Point(12, 298)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(492, 100)
@@ -185,13 +185,13 @@ Partial Class Form1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Resultados"
         '
-        'RichTextBox1
+        'txt_3
         '
-        Me.RichTextBox1.Location = New System.Drawing.Point(7, 20)
-        Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(466, 60)
-        Me.RichTextBox1.TabIndex = 0
-        Me.RichTextBox1.Text = ""
+        Me.txt_3.Location = New System.Drawing.Point(7, 20)
+        Me.txt_3.Name = "txt_3"
+        Me.txt_3.Size = New System.Drawing.Size(466, 60)
+        Me.txt_3.TabIndex = 0
+        Me.txt_3.Text = ""
         '
         'Form1
         '
@@ -199,12 +199,12 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(537, 439)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.txt_3)
+        Me.Controls.Add(Me.btn_copiar2)
+        Me.Controls.Add(Me.btn_comparar)
+        Me.Controls.Add(Me.btn_copiar1)
         Me.Controls.Add(Me.txt_2)
         Me.Controls.Add(Me.txt_1)
+        Me.Controls.Add(Me.txt_0)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form1"
@@ -216,24 +216,24 @@ Partial Class Form1
         Me.PerformLayout()
 
     End Sub
+    Friend WithEvents txt_0 As RichTextBox
     Friend WithEvents txt_1 As RichTextBox
     Friend WithEvents txt_2 As RichTextBox
-    Friend WithEvents txt_3 As RichTextBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents btn_copiar1 As Button
+    Friend WithEvents btn_comparar As Button
+    Friend WithEvents btn_copiar2 As Button
     Friend WithEvents MenuStrip1 As MenuStrip
-    Friend WithEvents ToolStripMenuItem1 As ToolStripMenuItem
-    Friend WithEvents AbrirToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents GuardarToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents GuardarComoToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents SalirToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents HerramientasToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents CompararToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents AgregarTextoToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ArchivoToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents AcercaDeToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ManualDeLaAplicaciónToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents menu_archivo As ToolStripMenuItem
+    Friend WithEvents menu_abrir As ToolStripMenuItem
+    Friend WithEvents menu_guardar As ToolStripMenuItem
+    Friend WithEvents menu_guardarc As ToolStripMenuItem
+    Friend WithEvents menu_salir As ToolStripMenuItem
+    Friend WithEvents menu_herramientas As ToolStripMenuItem
+    Friend WithEvents menu_comparar As ToolStripMenuItem
+    Friend WithEvents menu_agregart As ToolStripMenuItem
+    Friend WithEvents menu_ayuda As ToolStripMenuItem
+    Friend WithEvents menu_acercade As ToolStripMenuItem
+    Friend WithEvents menu_manual As ToolStripMenuItem
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents RichTextBox1 As RichTextBox
+    Friend WithEvents txt_3 As RichTextBox
 End Class
