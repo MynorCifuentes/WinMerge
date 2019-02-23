@@ -10,8 +10,8 @@ Public Class Form1
 
     Private Sub menu_abrir_Click(sender As Object, e As EventArgs) Handles menu_abrir.Click
         Dim abrirArchivo As OpenFileDialog = New OpenFileDialog()
-        Dim nombreArchivo As String
-        Dim contenidoArchivo As String
+        'Dim nombreArchivo As String
+        'Dim contenidoArchivo As String
         Dim lecturaArchivo As IO.StreamReader
         abrirArchivo.Title = "Abrir Archivo prueba"
         abrirArchivo.InitialDirectory = "C:\Users\mynor\Desktop"
@@ -43,9 +43,13 @@ Public Class Form1
         archivoGuardar.Title = "Guardar el archivo prueba modificado"
         If txt_1.Text.Length > 0 Then
             archivoGuardar.ShowDialog()
-            System.IO.File.WriteAllText(archivoGuardar.FileName, txt_1.Text)
+            File.WriteAllText(archivoGuardar.FileName, txt_1.Text)
 
 
         End If
+    End Sub
+
+    Private Sub menu_acercade_Click(sender As Object, e As EventArgs) Handles menu_acercade.Click
+        MessageBox.Show("Mynor Cifuentes" + vbLf + " LFP 1Sem19 " + vbLf + " 201318644")
     End Sub
 End Class
