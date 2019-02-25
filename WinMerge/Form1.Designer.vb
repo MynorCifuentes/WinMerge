@@ -31,6 +31,8 @@ Partial Class Form1
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.menu_archivo = New System.Windows.Forms.ToolStripMenuItem()
         Me.menu_abrir = New System.Windows.Forms.ToolStripMenuItem()
+        Me.menu_abrir1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.menu_abrir2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.menu_guardar = New System.Windows.Forms.ToolStripMenuItem()
         Me.menu_guardarc = New System.Windows.Forms.ToolStripMenuItem()
         Me.menu_salir = New System.Windows.Forms.ToolStripMenuItem()
@@ -115,9 +117,22 @@ Partial Class Form1
         '
         'menu_abrir
         '
+        Me.menu_abrir.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.menu_abrir1, Me.menu_abrir2})
         Me.menu_abrir.Name = "menu_abrir"
         Me.menu_abrir.Size = New System.Drawing.Size(180, 22)
         Me.menu_abrir.Text = "Abrir"
+        '
+        'menu_abrir1
+        '
+        Me.menu_abrir1.Name = "menu_abrir1"
+        Me.menu_abrir1.Size = New System.Drawing.Size(180, 22)
+        Me.menu_abrir1.Text = "Archivo1"
+        '
+        'menu_abrir2
+        '
+        Me.menu_abrir2.Name = "menu_abrir2"
+        Me.menu_abrir2.Size = New System.Drawing.Size(180, 22)
+        Me.menu_abrir2.Text = "Archivo 2 "
         '
         'menu_guardar
         '
@@ -236,4 +251,6 @@ Partial Class Form1
     Friend WithEvents menu_manual As ToolStripMenuItem
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents txt_3 As RichTextBox
+    Friend WithEvents menu_abrir1 As ToolStripMenuItem
+    Friend WithEvents menu_abrir2 As ToolStripMenuItem
 End Class
