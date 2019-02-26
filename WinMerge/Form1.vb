@@ -88,10 +88,21 @@ Public Class Form1
             lecturaArchivo = New IO.StreamReader(abrirArchivo.FileName, True)
             txt_2.Text = lecturaArchivo.ReadToEnd
             contenidoArchivo = lecturaArchivo.ReadToEnd
-            Dim arreglo2 As Char()
-            arreglo2 = contenidoArchivo.ToCharArray
+            Dim arreglo2 = contenidoArchivo.ToCharArray
+
             'Dim charArray() As Char = contenidoArchivo.ToCharArray
+            Dim a As Integer
+            txt_3.Text = arreglo2(2)
+
+
+
+
 
         End If
+    End Sub
+
+    Private Sub btn_comparar_Click(sender As Object, e As EventArgs) Handles btn_comparar.Click
+
+
     End Sub
 End Class

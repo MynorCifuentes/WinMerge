@@ -119,37 +119,37 @@ Partial Class Form1
         '
         Me.menu_abrir.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.menu_abrir1, Me.menu_abrir2})
         Me.menu_abrir.Name = "menu_abrir"
-        Me.menu_abrir.Size = New System.Drawing.Size(180, 22)
+        Me.menu_abrir.Size = New System.Drawing.Size(152, 22)
         Me.menu_abrir.Text = "Abrir"
         '
         'menu_abrir1
         '
         Me.menu_abrir1.Name = "menu_abrir1"
-        Me.menu_abrir1.Size = New System.Drawing.Size(180, 22)
+        Me.menu_abrir1.Size = New System.Drawing.Size(127, 22)
         Me.menu_abrir1.Text = "Archivo1"
         '
         'menu_abrir2
         '
         Me.menu_abrir2.Name = "menu_abrir2"
-        Me.menu_abrir2.Size = New System.Drawing.Size(180, 22)
+        Me.menu_abrir2.Size = New System.Drawing.Size(127, 22)
         Me.menu_abrir2.Text = "Archivo 2 "
         '
         'menu_guardar
         '
         Me.menu_guardar.Name = "menu_guardar"
-        Me.menu_guardar.Size = New System.Drawing.Size(180, 22)
+        Me.menu_guardar.Size = New System.Drawing.Size(152, 22)
         Me.menu_guardar.Text = "Guardar"
         '
         'menu_guardarc
         '
         Me.menu_guardarc.Name = "menu_guardarc"
-        Me.menu_guardarc.Size = New System.Drawing.Size(180, 22)
+        Me.menu_guardarc.Size = New System.Drawing.Size(152, 22)
         Me.menu_guardarc.Text = "Guardar Como"
         '
         'menu_salir
         '
         Me.menu_salir.Name = "menu_salir"
-        Me.menu_salir.Size = New System.Drawing.Size(180, 22)
+        Me.menu_salir.Size = New System.Drawing.Size(152, 22)
         Me.menu_salir.Text = "Salir"
         '
         'menu_herramientas
